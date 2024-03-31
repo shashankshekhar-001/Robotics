@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 100%;
+    height:100vh;
+    background-image: url("milk.jpeg");
+    background-position: center;
+    background-size: cover;
+    padding-left:10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .img1{
+    width: 85px;
+    margin-right: 10px;
+    border-radius: 42px;
+    cursor: pointer;
+  }
+  .img2{
+    margin-left: 40px;
+    width: 30px;
+  }
+  
+  nav{
+    flex: 1;
+    text-align:right;
+  }
+  
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color:white;
+  }
+  
+  a{
+    text-decoration:none;
+    font-size: 15px;
+    color: #fff;
+  }
+  .row{
+    margin-left: 150px;
+    display:flex;
+    height: 88%;
+    align-items:center;
+  }
+  .column{
+    flex-basis: 50%;
+  }
+  h1{
+    margin-right: 150px;
+    color: #fff;
+    font-size:100px ;
+  }
+  p{
+    color:#fff;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  h5{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  }
+  
+  button{
+    width: 180px;
+    color:#000;
+    font-size: 17px;
+    padding: 5px;
+    background-color:#fff ;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  .card{
+    margin-left:20px;
+    width:500px ;
+    height:250px;
+    display:inline-block;
+    border-radius:10px;
+    padding: 15px 25px;
+    box-sizing:border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    opacity: .8;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s;
+  }
+ .card1{
+    background-image: url("card2.jpeg.tiff");
+ }
+ .card2{
+    
+    background-image: url("card1.jpeg.tiff"); 
+ }
+ .card:hover{
+    transform: translateY(-10px);
+ }
+ .insta{
+    height:30px;
+ }
+ footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
